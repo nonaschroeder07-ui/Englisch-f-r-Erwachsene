@@ -1,0 +1,185 @@
+{
+  "id": "01-01",
+  "topic": { "number": 1, "title": { "ru": "Привет, это я", "de": "Hallo, das bin ich" } },
+  "title": { "ru": "Привет! Как тебя зовут?", "de": "Hallo! Wie heißt du?" },
+  "goal": { "ru": "Я умею поздороваться, назвать своё имя и спросить имя собеседника", "de": "Ich kann grüßen, meinen Namen sagen und nach dem Namen fragen" },
+  "durationMin": 15,
+  "cefr": "A1",
+
+  "situation": {
+    "context": { "ru": "Первый день на курсах. Рядом садится мужчина и думает, что вы — Анна.", "de": "Erster Kurstag. Ein Mann setzt sich neben Sie und denkt, Sie sind Anna." },
+    "lines": [
+      { "speaker": "Tom", "en": "Hello! Are you Anna?", "translation": { "ru": "Здравствуйте! Вы Анна?", "de": "Hallo! Sind Sie Anna?" } },
+      { "speaker": "Nona", "en": "No. My name is Nona.", "translation": { "ru": "Нет. Меня зовут Нона.", "de": "Nein. Ich heiße Nona." } },
+      { "speaker": "Tom", "en": "Oh! Hi, Nona. I'm Tom.", "translation": { "ru": "О! Привет, Нона. Я Том.", "de": "Oh! Hallo, Nona. Ich bin Tom." } },
+      { "speaker": "Nona", "en": "Hi, Tom!", "translation": { "ru": "Привет, Том!", "de": "Hallo, Tom!" } },
+      { "speaker": "Tom", "en": "Goodbye, Nona!", "translation": { "ru": "До свидания, Нона!", "de": "Tschüss, Nona!" } },
+      { "speaker": "Nona", "en": "Goodbye!", "translation": { "ru": "До свидания!", "de": "Tschüss!" } }
+    ]
+  },
+
+  "words": [
+    {
+      "id": "hello", "en": "hello", "ipa": "/həˈləʊ/", "partOfSpeech": "phrase",
+      "translation": { "ru": "привет, здравствуйте", "de": "hallo" },
+      "example": { "en": "Hello! I'm Anna.", "translation": { "ru": "Здравствуйте! Я Анна.", "de": "Hallo! Ich bin Anna." } },
+      "association": { "ru": "Звучит почти как немецкое «Hallo» — подходит и для «привет», и для «здравствуйте».", "de": "Fast wie „Hallo“ – passt immer." },
+      "germanBridge": "Hallo", "image": "👋"
+    },
+    {
+      "id": "hi", "en": "hi", "ipa": "/haɪ/", "partOfSpeech": "phrase",
+      "translation": { "ru": "привет (неформально)", "de": "hi, hallo (locker)" },
+      "example": { "en": "Hi, Tom!", "translation": { "ru": "Привет, Том!", "de": "Hi, Tom!" } },
+      "association": { "ru": "Короткое и дружеское — для коллег и друзей.", "de": "Kurz und freundlich – für Kollegen und Freunde." },
+      "image": "🙂"
+    },
+    {
+      "id": "goodbye", "en": "goodbye", "ipa": "/ˌɡʊdˈbaɪ/", "partOfSpeech": "phrase",
+      "translation": { "ru": "до свидания", "de": "auf Wiedersehen, tschüss" },
+      "example": { "en": "Goodbye, Anna!", "translation": { "ru": "До свидания, Анна!", "de": "Tschüss, Anna!" } },
+      "association": { "ru": "good + bye. Коротко говорят просто «Bye!».", "de": "good + bye. Kurz: „Bye!“" },
+      "image": "🚪"
+    },
+    {
+      "id": "name", "en": "name", "ipa": "/neɪm/", "partOfSpeech": "noun",
+      "translation": { "ru": "имя", "de": "Name" },
+      "example": { "en": "My name is Nona.", "translation": { "ru": "Меня зовут Нона.", "de": "Mein Name ist Nona." } },
+      "association": { "ru": "Пишется как немецкое Name, но читается [нэйм].", "de": "Wie „Name“, aber gesprochen [neɪm]." },
+      "germanBridge": "Name", "image": "🏷️"
+    },
+    {
+      "id": "my", "en": "my", "ipa": "/maɪ/", "partOfSpeech": "pronoun",
+      "translation": { "ru": "мой, моя, моё", "de": "mein, meine" },
+      "example": { "en": "My name is Tom.", "translation": { "ru": "Меня зовут Том (букв.: моё имя — Том).", "de": "Mein Name ist Tom." } },
+      "association": { "ru": "my ≈ mein. Одна форма для всех родов!", "de": "my = mein/meine – eine Form für alles." },
+      "germanBridge": "mein"
+    },
+    {
+      "id": "your", "en": "your", "ipa": "/jɔː/", "partOfSpeech": "pronoun",
+      "translation": { "ru": "твой, ваш", "de": "dein, Ihr" },
+      "example": { "en": "What's your name?", "translation": { "ru": "Как тебя/вас зовут?", "de": "Wie heißt du? / Wie heißen Sie?" } },
+      "association": { "ru": "В английском нет разницы «ты/вы» — your подходит всем, и коллеге, и начальнику.", "de": "Kein Unterschied zwischen du und Sie – your passt immer." }
+    },
+    {
+      "id": "yes", "en": "yes", "ipa": "/jes/", "partOfSpeech": "other",
+      "translation": { "ru": "да", "de": "ja" },
+      "example": { "en": "Are you Nona? — Yes!", "translation": { "ru": "Вы Нона? — Да!", "de": "Sind Sie Nona? – Ja!" } },
+      "association": { "ru": "yes ≈ ja + s.", "de": "yes ≈ ja." },
+      "germanBridge": "ja", "image": "✅"
+    },
+    {
+      "id": "no", "en": "no", "ipa": "/nəʊ/", "partOfSpeech": "other",
+      "translation": { "ru": "нет", "de": "nein" },
+      "example": { "en": "Are you Anna? — No. I'm Nona.", "translation": { "ru": "Вы Анна? — Нет. Я Нона.", "de": "Sind Sie Anna? – Nein. Ich bin Nona." } },
+      "association": { "ru": "Читается [ноу], а не [но].", "de": "Gesprochen [noʊ], nicht [no]." },
+      "image": "❌"
+    }
+  ],
+
+  "rule": {
+    "title": { "ru": "I am = «я есть»: I'm Nona", "de": "I am = ich bin: I'm Nona" },
+    "explanation": {
+      "ru": "По-русски мы говорим «Я Нона» без глагола. В английском глагол нужен всегда: I am Nona. В разговоре его сокращают: I'm Nona. Спросить имя: What's your name? Ответить: My name is … или I'm …",
+      "de": "Wie im Deutschen braucht man ein Verb: I am Nona = Ich bin Nona. Kurzform: I'm Nona. Nach dem Namen fragen: What's your name? Antwort: My name is … oder I'm …"
+    },
+    "table": [
+      ["полная форма", "в разговоре", "Deutsch"],
+      ["I am Nona.", "I'm Nona.", "Ich bin Nona."],
+      ["My name is Tom.", "My name's Tom.", "Ich heiße Tom."],
+      ["What is your name?", "What's your name?", "Wie heißt du?"]
+    ],
+    "examples": [
+      { "en": "I'm Nona.", "translation": { "ru": "Я Нона.", "de": "Ich bin Nona." } },
+      { "en": "My name is Tom.", "translation": { "ru": "Меня зовут Том.", "de": "Ich heiße Tom." } },
+      { "en": "What's your name?", "translation": { "ru": "Как тебя/вас зовут?", "de": "Wie heißt du? / Wie heißen Sie?" } }
+    ],
+    "germanBridge": { "ru": "I am = ich bin. Логика как в немецком: глагол обязателен.", "de": "I am = ich bin. Das Verb ist Pflicht." },
+    "commonMistake": {
+      "wrong": "I Nona.",
+      "right": "I'm Nona.",
+      "why": { "ru": "В русском «быть» пропускают, в английском — никогда.", "de": "Das Verb am darf nie fehlen." }
+    }
+  },
+
+  "exercises": [
+    {
+      "id": "e1", "type": "match",
+      "instruction": { "ru": "Соедините слово и перевод", "de": "Verbinden Sie Wort und Übersetzung" },
+      "pairs": [["hello", "привет / hallo"], ["goodbye", "до свидания / tschüss"], ["name", "имя / Name"], ["yes", "да / ja"], ["no", "нет / nein"]],
+      "explanation": { "ru": "Многие слова похожи на немецкие: Hallo → hello, Name → name.", "de": "Viele Wörter ähneln dem Deutschen." }
+    },
+    {
+      "id": "e2", "type": "choice",
+      "instruction": { "ru": "Выберите правильный вариант", "de": "Wählen Sie die richtige Antwort" },
+      "question": "___ Nona.", "options": ["I", "I'm", "My"], "answer": 1,
+      "explanation": { "ru": "Нужен глагол: I'm = I am. Просто «I Nona» нельзя.", "de": "Man braucht das Verb: I'm = I am." }
+    },
+    {
+      "id": "e3", "type": "choice",
+      "instruction": { "ru": "Выберите правильный вариант", "de": "Wählen Sie die richtige Antwort" },
+      "question": "___ name is Tom.", "options": ["My", "I", "I'm"], "answer": 0,
+      "explanation": { "ru": "My name is … — «моё имя …».", "de": "My name is … = Mein Name ist …" }
+    },
+    {
+      "id": "e4", "type": "build",
+      "instruction": { "ru": "Соберите вопрос", "de": "Bilden Sie die Frage" },
+      "tokens": ["your", "What's", "name", "?"], "answer": "What's your name ?",
+      "explanation": { "ru": "Вопросительное слово What's стоит первым.", "de": "Das Fragewort What's steht am Anfang." }
+    },
+    {
+      "id": "e5", "type": "gap",
+      "instruction": { "ru": "Впишите пропущенное слово", "de": "Ergänzen Sie das fehlende Wort" },
+      "text": "Hello! What's ___ name?", "answers": ["your"],
+      "hint": { "ru": "твоё / ваше", "de": "dein / Ihr" },
+      "explanation": { "ru": "your = твой/ваш. Одно слово для «ты» и «вы».", "de": "your = dein/Ihr." }
+    },
+    {
+      "id": "e6", "type": "listen",
+      "instruction": { "ru": "Послушайте и выберите, что вы услышали", "de": "Hören Sie zu und wählen Sie" },
+      "audioText": "Goodbye, Tom!", "options": ["Hello, Tom!", "Goodbye, Tom!", "Hi, Tom!"], "answer": 1,
+      "explanation": { "ru": "Goodbye — прощание, hello и hi — приветствие.", "de": "Goodbye = Abschied, hello/hi = Begrüßung." }
+    },
+    {
+      "id": "e7", "type": "translate",
+      "instruction": { "ru": "Переведите на английский", "de": "Übersetzen Sie ins Englische" },
+      "prompt": { "ru": "Привет! Я Анна.", "de": "Hallo! Ich bin Anna." },
+      "answers": ["Hello! I'm Anna.", "Hi! I'm Anna.", "Hello! I am Anna.", "Hi! I am Anna.", "Hello! My name is Anna.", "Hi! My name is Anna."],
+      "explanation": { "ru": "Hello/Hi + I'm + имя.", "de": "Hello/Hi + I'm + Name." }
+    },
+    {
+      "id": "e8", "type": "choice",
+      "instruction": { "ru": "Вас спрашивают: «Are you Anna?» Вы — Нона. Что ответить?", "de": "Man fragt: „Are you Anna?“ Sie sind Nona. Was antworten Sie?" },
+      "question": "Are you Anna?", "options": ["Yes. I'm Nona.", "No. I'm Nona.", "No. I Nona."], "answer": 1,
+      "explanation": { "ru": "Вы не Анна → No. И глагол am не забываем: I'm.", "de": "Sie sind nicht Anna → No. Und das Verb: I'm." }
+    }
+  ],
+
+  "speaking": [
+    {
+      "id": "s1", "type": "repeat",
+      "instruction": { "ru": "Послушайте и повторите вслух", "de": "Hören Sie zu und sprechen Sie nach" },
+      "phrase": "Hello! My name is Nona."
+    },
+    {
+      "id": "s2", "type": "repeat",
+      "instruction": { "ru": "Послушайте и повторите вопрос", "de": "Hören Sie zu und wiederholen Sie die Frage" },
+      "phrase": "What's your name?"
+    },
+    {
+      "id": "s3", "type": "answer",
+      "instruction": { "ru": "Ответьте вслух о себе", "de": "Antworten Sie laut über sich" },
+      "question": "Hi! What's your name?",
+      "expected": ["My name is …", "I'm …", "Hi! I'm …"]
+    }
+  ],
+
+  "summary": {
+    "canDo": [
+      { "ru": "Я умею поздороваться и попрощаться: Hello! Hi! Goodbye!", "de": "Ich kann grüßen und mich verabschieden." },
+      { "ru": "Я умею назвать имя: I'm … / My name is …", "de": "Ich kann meinen Namen sagen." },
+      { "ru": "Я умею спросить имя: What's your name?", "de": "Ich kann nach dem Namen fragen." }
+    ]
+  },
+
+  "cards": ["hello", "hi", "goodbye", "name", "my", "your", "yes", "no", "phrase:whats-your-name"]
+}

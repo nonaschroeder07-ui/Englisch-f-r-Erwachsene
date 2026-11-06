@@ -1,0 +1,192 @@
+{
+  "id": "01-04",
+  "topic": { "number": 1, "title": { "ru": "Привет, это я", "de": "Hallo, das bin ich" } },
+  "title": { "ru": "Как дела? Вы из Англии?", "de": "Wie geht's? Sind Sie aus England?" },
+  "goal": { "ru": "Я умею спросить «Как дела?», задать вопрос «Вы…?» и ответить «нет, я не…»", "de": "Ich kann „Wie geht's?“ fragen, Ja/Nein-Fragen stellen und verneinen" },
+  "durationMin": 18,
+  "cefr": "A1",
+
+  "situation": {
+    "context": { "ru": "На курсы пришёл новый ученик. Вы знакомитесь.", "de": "Ein neuer Teilnehmer kommt in den Kurs. Sie lernen sich kennen." },
+    "lines": [
+      { "speaker": "Nona", "en": "Hi! I'm Nona. How are you?", "translation": { "ru": "Привет! Я Нона. Как дела?", "de": "Hallo! Ich bin Nona. Wie geht's?" } },
+      { "speaker": "Paul", "en": "I'm fine, thanks. I'm Paul.", "translation": { "ru": "Хорошо, спасибо. Я Пол.", "de": "Gut, danke. Ich bin Paul." } },
+      { "speaker": "Nona", "en": "Nice to meet you, Paul. Are you English?", "translation": { "ru": "Приятно познакомиться, Пол. Вы англичанин?", "de": "Freut mich, Paul. Sind Sie Engländer?" } },
+      { "speaker": "Paul", "en": "No, I'm not. I'm German. And you?", "translation": { "ru": "Нет. Я немец. А вы?", "de": "Nein. Ich bin Deutscher. Und Sie?" } },
+      { "speaker": "Nona", "en": "I'm not German. I'm Russian.", "translation": { "ru": "Я не немка. Я русская.", "de": "Ich bin keine Deutsche. Ich bin Russin." } },
+      { "speaker": "Paul", "en": "Nice to meet you, too!", "translation": { "ru": "Мне тоже приятно!", "de": "Freut mich auch!" } }
+    ]
+  },
+
+  "words": [
+    {
+      "id": "how", "en": "how", "ipa": "/haʊ/", "partOfSpeech": "adverb",
+      "translation": { "ru": "как", "de": "wie" },
+      "example": { "en": "How are you?", "translation": { "ru": "Как дела?", "de": "Wie geht's?" } },
+      "association": { "ru": "Как индейское «Хау!» — приветствие и вопрос «как ты?».", "de": "Wie das „Hau!“ – Begrüßung." },
+      "image": "❓"
+    },
+    {
+      "id": "fine", "en": "fine", "ipa": "/faɪn/", "partOfSpeech": "adjective",
+      "translation": { "ru": "хорошо, в порядке", "de": "gut" },
+      "example": { "en": "I'm fine, thanks.", "translation": { "ru": "Хорошо, спасибо.", "de": "Mir geht's gut, danke." } },
+      "association": { "ru": "fine ≈ немецкое fein — «отлично, хорошо».", "de": "fine ≈ fein." },
+      "germanBridge": "fein", "image": "👍"
+    },
+    {
+      "id": "ok", "en": "OK", "ipa": "/ˌəʊˈkeɪ/", "partOfSpeech": "other",
+      "translation": { "ru": "нормально, ладно", "de": "okay" },
+      "example": { "en": "How are you? — I'm OK.", "translation": { "ru": "Как дела? — Нормально.", "de": "Wie geht's? – Okay." } },
+      "association": { "ru": "Знакомо по-русски и по-немецки. Читается [оу-кэй].", "de": "Bekannt aus dem Deutschen." },
+      "germanBridge": "okay", "image": "👌"
+    },
+    {
+      "id": "and", "en": "and", "ipa": "/ænd/", "partOfSpeech": "other",
+      "translation": { "ru": "и; а", "de": "und" },
+      "example": { "en": "I'm fine. And you?", "translation": { "ru": "У меня хорошо. А у тебя?", "de": "Mir geht's gut. Und dir?" } },
+      "association": { "ru": "and ≈ und. «And you?» — «А ты?»", "de": "and = und." },
+      "germanBridge": "und", "image": "➕"
+    },
+    {
+      "id": "not", "en": "not", "ipa": "/nɒt/", "partOfSpeech": "adverb",
+      "translation": { "ru": "не", "de": "nicht" },
+      "example": { "en": "I'm not English.", "translation": { "ru": "Я не англичанка.", "de": "Ich bin keine Engländerin." } },
+      "association": { "ru": "not ≈ nicht. Ставится после am/is/are.", "de": "not = nicht, steht nach am/is/are." },
+      "germanBridge": "nicht", "image": "🚫"
+    },
+    {
+      "id": "phrase:nice-to-meet-you", "en": "Nice to meet you.", "ipa": "/ˈnaɪs tə ˈmiːt juː/", "partOfSpeech": "phrase",
+      "translation": { "ru": "Приятно познакомиться.", "de": "Freut mich. / Schön, Sie kennenzulernen." },
+      "example": { "en": "Nice to meet you, Paul!", "translation": { "ru": "Приятно познакомиться, Пол!", "de": "Freut mich, Paul!" } },
+      "association": { "ru": "Учим целиком, как одно слово. Говорят при первой встрече.", "de": "Als Ganzes lernen – beim ersten Treffen." },
+      "image": "🤝"
+    },
+    {
+      "id": "too", "en": "too", "ipa": "/tuː/", "partOfSpeech": "adverb",
+      "translation": { "ru": "тоже", "de": "auch" },
+      "example": { "en": "I'm from Germany, too.", "translation": { "ru": "Я тоже из Германии.", "de": "Ich komme auch aus Deutschland." } },
+      "association": { "ru": "Стоит в конце предложения, после запятой.", "de": "Steht am Satzende." },
+      "falseFriend": { "ru": "⚠ Не путать с немецким also: also = «итак», а «тоже» по-английски — too (или also).", "de": "⚠ „auch“ = too. Englisches also bedeutet auch „auch“, nicht „also“!" }
+    }
+  ],
+
+  "rule": {
+    "title": { "ru": "Вопрос и отрицание с to be", "de": "Frage und Verneinung mit to be" },
+    "explanation": {
+      "ru": "Вопрос: глагол ставим перед лицом — You are → Are you…? Отрицание: добавляем not после глагола — I'm not, he isn't, they aren't. Короткий ответ: Yes, I am. / No, I'm not.",
+      "de": "Frage: Verb nach vorne – You are → Are you…? (wie im Deutschen: Sie sind → Sind Sie?). Verneinung: not nach dem Verb – I'm not, he isn't, they aren't."
+    },
+    "table": [
+      ["утверждение", "вопрос", "отрицание"],
+      ["I am Russian.", "Am I …?", "I'm not German."],
+      ["She is a teacher.", "Is she a teacher?", "She isn't a teacher."],
+      ["You are English.", "Are you English?", "You aren't English."]
+    ],
+    "examples": [
+      { "en": "Are you German? — No, I'm not.", "translation": { "ru": "Вы немка? — Нет.", "de": "Sind Sie Deutsche? – Nein." } },
+      { "en": "Is he your teacher? — Yes, he is.", "translation": { "ru": "Он ваш учитель? — Да.", "de": "Ist er Ihr Lehrer? – Ja." } },
+      { "en": "She isn't from England.", "translation": { "ru": "Она не из Англии.", "de": "Sie kommt nicht aus England." } }
+    ],
+    "germanBridge": { "ru": "Вопрос строится как в немецком: Sie sind → Sind Sie? = You are → Are you? Отрицание: nicht = not, но стоит сразу после am/is/are.", "de": "Wie im Deutschen: Sind Sie…? = Are you…?" },
+    "commonMistake": {
+      "wrong": "You are English?",
+      "right": "Are you English?",
+      "why": { "ru": "В русском вопрос — только интонацией. В английском меняется порядок слов.", "de": "Im Englischen ändert sich die Wortstellung – wie im Deutschen." }
+    }
+  },
+
+  "exercises": [
+    {
+      "id": "e1", "type": "choice", "review": true,
+      "instruction": { "ru": "Повторение: выберите правильный вариант", "de": "Wiederholung: Wählen Sie" },
+      "question": "They ___ my friends.", "options": ["is", "are", "am"], "answer": 1,
+      "explanation": { "ru": "they → are.", "de": "they → are." }
+    },
+    {
+      "id": "e2", "type": "build",
+      "instruction": { "ru": "Соберите вопрос", "de": "Bilden Sie die Frage" },
+      "tokens": ["you", "Are", "German", "?"], "answer": "Are you German ?",
+      "explanation": { "ru": "В вопросе are идёт первым.", "de": "In der Frage steht are vorne." }
+    },
+    {
+      "id": "e3", "type": "choice",
+      "instruction": { "ru": "Выберите короткий ответ", "de": "Wählen Sie die Kurzantwort" },
+      "question": "Are you English? (нет / nein)", "options": ["No, I'm not.", "No, I amn't.", "No, I not."], "answer": 0,
+      "explanation": { "ru": "Правильно: No, I'm not. Формы «amn't» нет.", "de": "Richtig: No, I'm not. „amn't“ gibt es nicht." }
+    },
+    {
+      "id": "e4", "type": "gap",
+      "instruction": { "ru": "Впишите isn't или aren't", "de": "Ergänzen Sie isn't oder aren't" },
+      "text": "Paul ___ English. He is German.", "answers": ["isn't", "is not"],
+      "explanation": { "ru": "he/she → isn't = is not.", "de": "he/she → isn't = is not." }
+    },
+    {
+      "id": "e5", "type": "choice",
+      "instruction": { "ru": "Вас спрашивают «How are you?». Что ответить?", "de": "Man fragt „How are you?“. Was antworten Sie?" },
+      "question": "How are you?", "options": ["I'm from Russia.", "I'm fine, thanks. And you?", "My name is Nona."], "answer": 1,
+      "explanation": { "ru": "How are you? — Как дела? → I'm fine / OK.", "de": "How are you? → I'm fine / OK." }
+    },
+    {
+      "id": "e6", "type": "gap",
+      "instruction": { "ru": "Впишите слово «тоже»", "de": "Ergänzen Sie „auch“" },
+      "text": "Nice to meet you! — Nice to meet you, ___!", "answers": ["too"],
+      "explanation": { "ru": "too = тоже, в конце фразы.", "de": "too = auch, am Ende." }
+    },
+    {
+      "id": "e7", "type": "listen",
+      "instruction": { "ru": "Послушайте. Откуда Лиза?", "de": "Hören Sie zu. Woher kommt Lisa?" },
+      "audioText": "Is Lisa from England? No, she isn't. She is from Germany.", "options": ["Англия / England", "Германия / Deutschland", "Россия / Russland"], "answer": 1,
+      "explanation": { "ru": "She isn't from England. She is from Germany.", "de": "She isn't from England. She is from Germany." }
+    },
+    {
+      "id": "e8", "type": "translate",
+      "instruction": { "ru": "Переведите на английский", "de": "Übersetzen Sie ins Englische" },
+      "prompt": { "ru": "Я не англичанка. Я из России.", "de": "Ich bin keine Engländerin. Ich komme aus Russland." },
+      "answers": ["I'm not English. I'm from Russia.", "I am not English. I am from Russia.", "I'm not English. I am from Russia."],
+      "explanation": { "ru": "I'm not + национальность.", "de": "I'm not + Nationalität." }
+    },
+    {
+      "id": "e9", "type": "match", "review": true,
+      "instruction": { "ru": "Повторение: соедините", "de": "Wiederholung: Verbinden Sie" },
+      "pairs": [["woman", "женщина / Frau"], ["friend", "друг / Freund"], ["country", "страна / Land"], ["teacher", "учитель / Lehrer"]],
+      "explanation": { "ru": "Слова из уроков 01-02 и 01-03.", "de": "Wörter aus 01-02 und 01-03." }
+    },
+    {
+      "id": "e10", "type": "translate", "review": true,
+      "instruction": { "ru": "Повторение: переведите", "de": "Wiederholung: Übersetzen Sie" },
+      "prompt": { "ru": "Как вас зовут?", "de": "Wie heißen Sie?" },
+      "answers": ["What's your name?", "What is your name?"],
+      "explanation": { "ru": "What's your name? — из урока 01-01.", "de": "What's your name? – aus 01-01." }
+    }
+  ],
+
+  "speaking": [
+    {
+      "id": "s1", "type": "repeat",
+      "instruction": { "ru": "Повторите с вопросительной интонацией (голос вверх в конце)", "de": "Sprechen Sie mit Frageintonation nach" },
+      "phrase": "Are you English?"
+    },
+    {
+      "id": "s2", "type": "answer",
+      "instruction": { "ru": "Ответьте вслух", "de": "Antworten Sie laut" },
+      "question": "How are you?",
+      "expected": ["I'm fine, thanks. And you?", "I'm OK. And you?", "Fine, thanks."]
+    },
+    {
+      "id": "s3", "type": "answer",
+      "instruction": { "ru": "Ответьте вслух коротким ответом", "de": "Antworten Sie mit einer Kurzantwort" },
+      "question": "Are you English?",
+      "expected": ["No, I'm not.", "No, I'm not. I'm Russian.", "No, I'm not. I'm German."]
+    }
+  ],
+
+  "summary": {
+    "canDo": [
+      { "ru": "Я умею спросить и ответить: How are you? — I'm fine, thanks.", "de": "Ich kann fragen, wie es geht." },
+      { "ru": "Я умею задать вопрос: Are you…? Is she…?", "de": "Ich kann Ja/Nein-Fragen stellen." },
+      { "ru": "Я умею сказать «нет»: I'm not…, she isn't…", "de": "Ich kann verneinen: I'm not…" }
+    ]
+  },
+
+  "cards": ["how", "fine", "ok", "and", "not", "too", "phrase:nice-to-meet-you", "phrase:how-are-you"]
+}

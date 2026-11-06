@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "note": "Все слова и фразы курса A1. Ключ = id карточки. IPA — британский вариант.",
+  "items": {
+    "hello": { "en": "hello", "ipa": "/həˈləʊ/", "pos": "phrase", "translation": { "ru": "привет, здравствуйте", "de": "hallo" }, "lesson": "01-01" },
+    "hi": { "en": "hi", "ipa": "/haɪ/", "pos": "phrase", "translation": { "ru": "привет (неформально)", "de": "hi, hallo" }, "lesson": "01-01" },
+    "goodbye": { "en": "goodbye", "ipa": "/ˌɡʊdˈbaɪ/", "pos": "phrase", "translation": { "ru": "до свидания", "de": "auf Wiedersehen, tschüss" }, "lesson": "01-01" },
+    "name": { "en": "name", "ipa": "/neɪm/", "pos": "noun", "translation": { "ru": "имя", "de": "Name" }, "lesson": "01-01" },
+    "my": { "en": "my", "ipa": "/maɪ/", "pos": "pronoun", "translation": { "ru": "мой, моя, моё", "de": "mein, meine" }, "lesson": "01-01" },
+    "your": { "en": "your", "ipa": "/jɔː/", "pos": "pronoun", "translation": { "ru": "твой, ваш", "de": "dein, Ihr" }, "lesson": "01-01" },
+    "yes": { "en": "yes", "ipa": "/jes/", "pos": "other", "translation": { "ru": "да", "de": "ja" }, "lesson": "01-01" },
+    "no": { "en": "no", "ipa": "/nəʊ/", "pos": "other", "translation": { "ru": "нет", "de": "nein" }, "lesson": "01-01" },
+    "phrase:whats-your-name": { "en": "What's your name?", "ipa": "/wɒts jɔː ˈneɪm/", "pos": "phrase", "translation": { "ru": "Как тебя/вас зовут?", "de": "Wie heißt du? / Wie heißen Sie?" }, "lesson": "01-01" },
+
+    "where": { "en": "where", "ipa": "/weə/", "pos": "adverb", "translation": { "ru": "где, откуда (с from)", "de": "wo" }, "lesson": "01-02" },
+    "from": { "en": "from", "ipa": "/frɒm/", "pos": "preposition", "translation": { "ru": "из, от", "de": "aus, von" }, "lesson": "01-02" },
+    "germany": { "en": "Germany", "ipa": "/ˈdʒɜːməni/", "pos": "noun", "translation": { "ru": "Германия", "de": "Deutschland" }, "lesson": "01-02" },
+    "russia": { "en": "Russia", "ipa": "/ˈrʌʃə/", "pos": "noun", "translation": { "ru": "Россия", "de": "Russland" }, "lesson": "01-02" },
+    "england": { "en": "England", "ipa": "/ˈɪŋɡlənd/", "pos": "noun", "translation": { "ru": "Англия", "de": "England" }, "lesson": "01-02" },
+    "country": { "en": "country", "ipa": "/ˈkʌntri/", "pos": "noun", "translation": { "ru": "страна", "de": "Land" }, "lesson": "01-02" },
+    "city": { "en": "city", "ipa": "/ˈsɪti/", "pos": "noun", "translation": { "ru": "город", "de": "Stadt" }, "lesson": "01-02" },
+    "phrase:where-are-you-from": { "en": "Where are you from?", "ipa": "/ˌweər ə juː ˈfrɒm/", "pos": "phrase", "translation": { "ru": "Откуда ты/вы?", "de": "Woher kommst du? / Woher kommen Sie?" }, "lesson": "01-02" },
+
+    "man": { "en": "man", "ipa": "/mæn/", "pos": "noun", "translation": { "ru": "мужчина", "de": "Mann" }, "lesson": "01-03" },
+    "woman": { "en": "woman", "ipa": "/ˈwʊmən/", "pos": "noun", "translation": { "ru": "женщина", "de": "Frau" }, "lesson": "01-03" },
+    "friend": { "en": "friend", "ipa": "/frend/", "pos": "noun", "translation": { "ru": "друг, подруга", "de": "Freund, Freundin" }, "lesson": "01-03" },
+    "teacher": { "en": "teacher", "ipa": "/ˈtiːtʃə/", "pos": "noun", "translation": { "ru": "учитель, учительница", "de": "Lehrer, Lehrerin" }, "lesson": "01-03" },
+    "german": { "en": "German", "ipa": "/ˈdʒɜːmən/", "pos": "adjective", "translation": { "ru": "немецкий; немец, немка", "de": "deutsch; Deutscher, Deutsche" }, "lesson": "01-03" },
+    "russian": { "en": "Russian", "ipa": "/ˈrʌʃn/", "pos": "adjective", "translation": { "ru": "русский; русский (человек)", "de": "russisch; Russe, Russin" }, "lesson": "01-03" },
+    "english": { "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "pos": "adjective", "translation": { "ru": "английский; англичанин", "de": "englisch; Engländer" }, "lesson": "01-03" },
+
+    "how": { "en": "how", "ipa": "/haʊ/", "pos": "adverb", "translation": { "ru": "как", "de": "wie" }, "lesson": "01-04" },
+    "fine": { "en": "fine", "ipa": "/faɪn/", "pos": "adjective", "translation": { "ru": "хорошо, в порядке", "de": "gut" }, "lesson": "01-04" },
+    "ok": { "en": "OK", "ipa": "/ˌəʊˈkeɪ/", "pos": "other", "translation": { "ru": "нормально, ладно", "de": "okay" }, "lesson": "01-04" },
+    "and": { "en": "and", "ipa": "/ænd/", "pos": "other", "translation": { "ru": "и, а", "de": "und" }, "lesson": "01-04" },
+    "not": { "en": "not", "ipa": "/nɒt/", "pos": "adverb", "translation": { "ru": "не", "de": "nicht" }, "lesson": "01-04" },
+    "too": { "en": "too", "ipa": "/tuː/", "pos": "adverb", "translation": { "ru": "тоже", "de": "auch" }, "lesson": "01-04" },
+    "phrase:nice-to-meet-you": { "en": "Nice to meet you.", "ipa": "/ˈnaɪs tə ˈmiːt juː/", "pos": "phrase", "translation": { "ru": "Приятно познакомиться.", "de": "Freut mich. / Schön, Sie kennenzulernen." }, "lesson": "01-04" },
+    "phrase:how-are-you": { "en": "How are you?", "ipa": "/ˌhaʊ ə ˈjuː/", "pos": "phrase", "translation": { "ru": "Как дела? / Как ты?", "de": "Wie geht's? / Wie geht es Ihnen?" }, "lesson": "01-04" },
+
+    "letter": { "en": "letter", "ipa": "/ˈletə/", "pos": "noun", "translation": { "ru": "буква; письмо", "de": "Buchstabe; Brief" }, "lesson": "01-05" },
+    "spell": { "en": "spell", "ipa": "/spel/", "pos": "verb", "translation": { "ru": "произнести по буквам", "de": "buchstabieren" }, "lesson": "01-05" },
+    "email": { "en": "email", "ipa": "/ˈiːmeɪl/", "pos": "noun", "translation": { "ru": "электронная почта, e-mail", "de": "E-Mail" }, "lesson": "01-05" },
+    "address": { "en": "address", "ipa": "/əˈdres/", "pos": "noun", "translation": { "ru": "адрес", "de": "Adresse" }, "lesson": "01-05" },
+    "surname": { "en": "surname", "ipa": "/ˈsɜːneɪm/", "pos": "noun", "translation": { "ru": "фамилия", "de": "Nachname" }, "lesson": "01-05" },
+    "please": { "en": "please", "ipa": "/pliːz/", "pos": "other", "translation": { "ru": "пожалуйста (просьба)", "de": "bitte" }, "lesson": "01-05" },
+    "thank-you": { "en": "thank you", "ipa": "/ˈθæŋk juː/", "pos": "phrase", "translation": { "ru": "спасибо", "de": "danke" }, "lesson": "01-05" },
+    "phrase:how-do-you-spell": { "en": "How do you spell it?", "ipa": "/ˌhaʊ də jə ˈspel ɪt/", "pos": "phrase", "translation": { "ru": "Как это пишется (по буквам)?", "de": "Wie schreibt man das? / Wie buchstabiert man das?" }, "lesson": "01-05" }
+  }
+}

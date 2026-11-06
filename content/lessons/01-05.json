@@ -1,0 +1,208 @@
+{
+  "id": "01-05",
+  "topic": { "number": 1, "title": { "ru": "Привет, это я", "de": "Hallo, das bin ich" } },
+  "title": { "ru": "Продиктуйте по буквам", "de": "Buchstabieren Sie bitte" },
+  "goal": { "ru": "Я умею назвать фамилию и e-mail по буквам и понять, когда диктуют мне", "de": "Ich kann meinen Nachnamen und meine E-Mail buchstabieren und verstehen" },
+  "durationMin": 20,
+  "cefr": "A1",
+
+  "situation": {
+    "context": { "ru": "Вы записываетесь на курс по телефону. Администратор заполняет анкету.", "de": "Sie melden sich telefonisch zum Kurs an. Die Mitarbeiterin füllt das Formular aus." },
+    "lines": [
+      { "speaker": "Kate", "en": "Hello! What's your name, please?", "translation": { "ru": "Здравствуйте! Как вас зовут, пожалуйста?", "de": "Hallo! Wie heißen Sie, bitte?" } },
+      { "speaker": "Nona", "en": "My name is Nona. My surname is Becker.", "translation": { "ru": "Меня зовут Нона. Моя фамилия — Беккер.", "de": "Ich heiße Nona. Mein Nachname ist Becker." } },
+      { "speaker": "Kate", "en": "How do you spell it?", "translation": { "ru": "Как это пишется?", "de": "Wie schreibt man das?" } },
+      { "speaker": "Nona", "en": "B-E-C-K-E-R.", "translation": { "ru": "B-E-C-K-E-R (по буквам).", "de": "B-E-C-K-E-R." } },
+      { "speaker": "Kate", "en": "Thank you. And your email address?", "translation": { "ru": "Спасибо. А ваш адрес электронной почты?", "de": "Danke. Und Ihre E-Mail-Adresse?" } },
+      { "speaker": "Nona", "en": "It's nona at mail dot com.", "translation": { "ru": "nona@mail.com", "de": "nona@mail.com" } }
+    ]
+  },
+
+  "words": [
+    {
+      "id": "letter", "en": "letter", "ipa": "/ˈletə/", "partOfSpeech": "noun",
+      "translation": { "ru": "буква; письмо", "de": "Buchstabe; Brief" },
+      "example": { "en": "The first letter is N.", "translation": { "ru": "Первая буква — N.", "de": "Der erste Buchstabe ist N." } },
+      "association": { "ru": "Как «литера» — буква. Ещё значит «письмо».", "de": "Wie „Letter“ (Druckbuchstabe)." },
+      "image": "🔤"
+    },
+    {
+      "id": "spell", "en": "spell", "ipa": "/spel/", "partOfSpeech": "verb",
+      "translation": { "ru": "произносить по буквам", "de": "buchstabieren" },
+      "example": { "en": "Can you spell it, please?", "translation": { "ru": "Можете продиктовать по буквам?", "de": "Können Sie das buchstabieren?" } },
+      "association": { "ru": "Spell — ещё и «заклинание»: буквы — как магические знаки.", "de": "Spell = auch „Zauberspruch“." },
+      "image": "🪄"
+    },
+    {
+      "id": "email", "en": "email", "ipa": "/ˈiːmeɪl/", "partOfSpeech": "noun",
+      "translation": { "ru": "электронная почта, e-mail", "de": "E-Mail" },
+      "example": { "en": "What's your email?", "translation": { "ru": "Какой у вас e-mail?", "de": "Wie ist Ihre E-Mail?" } },
+      "association": { "ru": "Читается [И-мэйл]. @ = at, точка = dot.", "de": "@ = at, Punkt = dot." },
+      "germanBridge": "E-Mail", "image": "📧"
+    },
+    {
+      "id": "address", "en": "address", "ipa": "/əˈdres/", "partOfSpeech": "noun",
+      "translation": { "ru": "адрес", "de": "Adresse" },
+      "example": { "en": "My email address is nona@mail.com.", "translation": { "ru": "Мой e-mail: nona@mail.com.", "de": "Meine E-Mail-Adresse ist nona@mail.com." } },
+      "association": { "ru": "⚠ Пишется с двумя d и двумя s: a-dd-re-ss.", "de": "⚠ Mit dd und ss: a-dd-re-ss (deutsch: Adresse – nur ein d)." },
+      "germanBridge": "Adresse", "image": "🏠"
+    },
+    {
+      "id": "surname", "en": "surname", "ipa": "/ˈsɜːneɪm/", "partOfSpeech": "noun",
+      "translation": { "ru": "фамилия", "de": "Nachname" },
+      "example": { "en": "My surname is Becker.", "translation": { "ru": "Моя фамилия — Беккер.", "de": "Mein Nachname ist Becker." } },
+      "association": { "ru": "sur + name. Name = имя, surname = фамилия.", "de": "sur + name = Nachname." },
+      "image": "🪪"
+    },
+    {
+      "id": "please", "en": "please", "ipa": "/pliːz/", "partOfSpeech": "other",
+      "translation": { "ru": "пожалуйста (в просьбе)", "de": "bitte" },
+      "example": { "en": "Your name, please?", "translation": { "ru": "Ваше имя, пожалуйста?", "de": "Ihr Name, bitte?" } },
+      "association": { "ru": "⚠ Только в просьбе! В ответ на «спасибо» говорят не please, а You're welcome.", "de": "⚠ Nur beim Bitten. Auf „danke“ antwortet man: You're welcome." },
+      "image": "🙏"
+    },
+    {
+      "id": "thank-you", "en": "thank you", "ipa": "/ˈθæŋk juː/", "partOfSpeech": "phrase",
+      "translation": { "ru": "спасибо", "de": "danke" },
+      "example": { "en": "Thank you, Kate!", "translation": { "ru": "Спасибо, Кейт!", "de": "Danke, Kate!" } },
+      "association": { "ru": "thank ≈ danke. Короче: thanks. ⚠ th — кончик языка между зубами, не [с] и не [ф].", "de": "thank ≈ danke. ⚠ th: Zunge zwischen die Zähne." },
+      "germanBridge": "danke", "image": "😊"
+    }
+  ],
+
+  "rule": {
+    "title": { "ru": "Английский алфавит и How do you spell…?", "de": "Das englische Alphabet und How do you spell…?" },
+    "explanation": {
+      "ru": "26 букв, но многие называются иначе, чем в немецком. Самые коварные: A [эй], E [и:], I [ай], G [джи:], J [джей], R [а:], Y [уай]. Две одинаковые буквы подряд — double: «double s». Спросить: How do you spell it?",
+      "de": "26 Buchstaben, aber viele klingen anders als im Deutschen: A [eɪ], E [iː], I [aɪ], G [dʒiː], J [dʒeɪ], R [ɑː], Y [waɪ]. Zwei gleiche Buchstaben: double – „double s“."
+    },
+    "table": [
+      ["буква", "звучит", "⚠ по-немецки"],
+      ["A", "[eɪ] эй", "a"],
+      ["E", "[iː] и:", "e"],
+      ["I", "[aɪ] ай", "i"],
+      ["G / J", "[dʒiː] джи: / [dʒeɪ] джей", "ge / jot"],
+      ["R", "[ɑː] а:", "er"],
+      ["V / W", "[viː] ви: / [ˈdʌbljuː] дабл-ю", "fau / we"],
+      ["Y / Z", "[waɪ] уай / [zed] зед", "ypsilon / zet"],
+      ["@ / .", "at / dot", "at / Punkt"]
+    ],
+    "examples": [
+      { "en": "How do you spell your surname?", "translation": { "ru": "Как пишется ваша фамилия?", "de": "Wie schreibt man Ihren Nachnamen?" } },
+      { "en": "N-O-N-A. Nona.", "translation": { "ru": "Эн-оу-эн-эй. Нона.", "de": "N-O-N-A. Nona." } },
+      { "en": "A-double D-R-E-double S.", "translation": { "ru": "address по буквам: A-DD-R-E-SS.", "de": "address buchstabiert." } }
+    ],
+    "germanBridge": { "ru": "⚠ Немецкая привычка мешает: E по-английски — [и:], а I — [ай]. Немцы и русские часто путают E и I при диктовке.", "de": "⚠ Achtung: E = [iː], I = [aɪ] – genau umgekehrt zum deutschen Gefühl!" },
+    "commonMistake": {
+      "wrong": "E [э], I [и]",
+      "right": "E [и:], I [ай]",
+      "why": { "ru": "Это самая частая ошибка при диктовке e-mail: nina и nena перепутаются.", "de": "Häufigster Fehler beim Buchstabieren von E-Mails." }
+    }
+  },
+
+  "exercises": [
+    {
+      "id": "e1", "type": "listen",
+      "instruction": { "ru": "Послушайте букву и выберите её", "de": "Hören Sie den Buchstaben und wählen Sie" },
+      "audioText": "E", "options": ["I", "E", "A"], "answer": 1,
+      "explanation": { "ru": "E звучит [и:].", "de": "E klingt [iː]." }
+    },
+    {
+      "id": "e2", "type": "listen",
+      "instruction": { "ru": "Послушайте букву и выберите её", "de": "Hören Sie den Buchstaben und wählen Sie" },
+      "audioText": "I", "options": ["I", "E", "Y"], "answer": 0,
+      "explanation": { "ru": "I звучит [ай].", "de": "I klingt [aɪ]." }
+    },
+    {
+      "id": "e3", "type": "listen",
+      "instruction": { "ru": "Послушайте имя по буквам и напишите его", "de": "Hören Sie zu und schreiben Sie den Namen" },
+      "audioText": "M-A-R-I-A", "answers": ["Maria", "MARIA", "maria"],
+      "explanation": { "ru": "M-A [эй]-R [а:]-I [ай]-A [эй] = Maria.", "de": "M-A-R-I-A = Maria." }
+    },
+    {
+      "id": "e4", "type": "match",
+      "instruction": { "ru": "Соедините слово и перевод", "de": "Verbinden Sie Wort und Übersetzung" },
+      "pairs": [["surname", "фамилия / Nachname"], ["letter", "буква / Buchstabe"], ["address", "адрес / Adresse"], ["please", "пожалуйста / bitte"]],
+      "explanation": { "ru": "surname — фамилия, name — имя.", "de": "surname = Nachname, name = Vorname." }
+    },
+    {
+      "id": "e5", "type": "build",
+      "instruction": { "ru": "Соберите вопрос", "de": "Bilden Sie die Frage" },
+      "tokens": ["you", "How", "spell", "do", "it", "?"], "answer": "How do you spell it ?",
+      "explanation": { "ru": "Учим как готовую фразу: How do you spell it?", "de": "Feste Wendung: How do you spell it?" }
+    },
+    {
+      "id": "e6", "type": "choice",
+      "instruction": { "ru": "Как продиктовать «@»?", "de": "Wie sagt man „@“?" },
+      "question": "nona@mail.com", "options": ["nona dot mail at com", "nona at mail dot com", "nona and mail dot com"], "answer": 1,
+      "explanation": { "ru": "@ = at, . = dot.", "de": "@ = at, . = dot." }
+    },
+    {
+      "id": "e7", "type": "gap", "review": true,
+      "instruction": { "ru": "Повторение: впишите am / is / are", "de": "Wiederholung: Ergänzen Sie am / is / are" },
+      "text": "My surname ___ Becker.", "answers": ["is"],
+      "explanation": { "ru": "My surname = it → is.", "de": "My surname = it → is." }
+    },
+    {
+      "id": "e8", "type": "choice", "review": true,
+      "instruction": { "ru": "Повторение: выберите правильный вопрос", "de": "Wiederholung: Wählen Sie die richtige Frage" },
+      "question": "Вы из Германии? / Sind Sie aus Deutschland?", "options": ["You are from Germany?", "Are you from Germany?", "From Germany are you?"], "answer": 1,
+      "explanation": { "ru": "В вопросе are идёт первым.", "de": "In der Frage steht are vorne." }
+    },
+    {
+      "id": "e9", "type": "translate", "review": true,
+      "instruction": { "ru": "Повторение: переведите", "de": "Wiederholung: Übersetzen Sie" },
+      "prompt": { "ru": "Она не немка. Она русская.", "de": "Sie ist keine Deutsche. Sie ist Russin." },
+      "answers": ["She isn't German. She is Russian.", "She isn't German. She's Russian.", "She is not German. She is Russian.", "She's not German. She's Russian."],
+      "explanation": { "ru": "she + isn't; национальность без артикля.", "de": "she + isn't; Nationalität ohne Artikel." }
+    },
+    {
+      "id": "e10", "type": "choice", "review": true,
+      "instruction": { "ru": "Повторение: вам сказали «Nice to meet you». Что ответить?", "de": "Wiederholung: Man sagt „Nice to meet you“. Ihre Antwort?" },
+      "question": "Nice to meet you!", "options": ["Nice to meet you, too!", "I'm fine.", "Goodbye, too!"], "answer": 0,
+      "explanation": { "ru": "Nice to meet you, too — мне тоже приятно.", "de": "Nice to meet you, too = Freut mich auch." }
+    },
+    {
+      "id": "e11", "type": "translate",
+      "instruction": { "ru": "Переведите на английский", "de": "Übersetzen Sie ins Englische" },
+      "prompt": { "ru": "Как пишется ваша фамилия, пожалуйста?", "de": "Wie schreibt man Ihren Nachnamen, bitte?" },
+      "answers": ["How do you spell your surname, please?", "How do you spell your surname?"],
+      "explanation": { "ru": "How do you spell + что?", "de": "How do you spell + was?" }
+    }
+  ],
+
+  "speaking": [
+    {
+      "id": "s1", "type": "repeat",
+      "instruction": { "ru": "Повторите трудные буквы: A, E, I, R, Y", "de": "Sprechen Sie die schwierigen Buchstaben nach: A, E, I, R, Y" },
+      "phrase": "A, E, I, R, Y"
+    },
+    {
+      "id": "s2", "type": "repeat",
+      "instruction": { "ru": "Повторите. th — кончик языка между зубами.", "de": "Sprechen Sie nach. th – Zunge zwischen die Zähne." },
+      "phrase": "Thank you!"
+    },
+    {
+      "id": "s3", "type": "answer",
+      "instruction": { "ru": "Продиктуйте свою фамилию по буквам", "de": "Buchstabieren Sie Ihren Nachnamen" },
+      "question": "What's your surname? How do you spell it?",
+      "expected": ["My surname is … . B-E-…"]
+    },
+    {
+      "id": "s4", "type": "answer",
+      "instruction": { "ru": "Продиктуйте свой e-mail (можно выдуманный)", "de": "Nennen Sie Ihre E-Mail-Adresse (auch ausgedacht)" },
+      "question": "What's your email address?",
+      "expected": ["It's … at … dot com.", "My email address is … at … dot de."]
+    }
+  ],
+
+  "summary": {
+    "canDo": [
+      { "ru": "Я знаю английский алфавит и трудные буквы: E [и:], I [ай]", "de": "Ich kenne das englische Alphabet." },
+      { "ru": "Я умею продиктовать фамилию и e-mail: at, dot, double", "de": "Ich kann Namen und E-Mail buchstabieren." },
+      { "ru": "Я умею спросить: How do you spell it?", "de": "Ich kann fragen: How do you spell it?" }
+    ]
+  },
+
+  "cards": ["letter", "spell", "email", "address", "surname", "please", "thank-you", "phrase:how-do-you-spell"]
+}

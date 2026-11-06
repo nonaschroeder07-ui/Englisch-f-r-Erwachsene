@@ -1,0 +1,192 @@
+{
+  "id": "01-03",
+  "topic": { "number": 1, "title": { "ru": "Привет, это я", "de": "Hallo, das bin ich" } },
+  "title": { "ru": "Он, она, они", "de": "Er, sie, sie" },
+  "goal": { "ru": "Я умею рассказать о других людях: кто они и откуда", "de": "Ich kann über andere Personen sprechen: wer sie sind und woher sie kommen" },
+  "durationMin": 18,
+  "cefr": "A1",
+
+  "situation": {
+    "context": { "ru": "Вы показываете Тому фото с курсов и рассказываете, кто есть кто.", "de": "Sie zeigen Tom ein Foto vom Kurs und erklären, wer wer ist." },
+    "lines": [
+      { "speaker": "Nona", "en": "This is Maria. She is my friend.", "translation": { "ru": "Это Мария. Она моя подруга.", "de": "Das ist Maria. Sie ist meine Freundin." } },
+      { "speaker": "Tom", "en": "Is she Russian?", "translation": { "ru": "Она русская?", "de": "Ist sie Russin?" } },
+      { "speaker": "Nona", "en": "No, she is German. She is from Berlin.", "translation": { "ru": "Нет, она немка. Она из Берлина.", "de": "Nein, sie ist Deutsche. Sie kommt aus Berlin." } },
+      { "speaker": "Tom", "en": "And the man?", "translation": { "ru": "А мужчина?", "de": "Und der Mann?" } },
+      { "speaker": "Nona", "en": "He is Mr Brown. He is our teacher. He is English.", "translation": { "ru": "Это мистер Браун. Он наш учитель. Он англичанин.", "de": "Das ist Herr Brown. Er ist unser Lehrer. Er ist Engländer." } },
+      { "speaker": "Tom", "en": "We are from England, too!", "translation": { "ru": "Мы тоже из Англии!", "de": "Wir kommen auch aus England!" } }
+    ]
+  },
+
+  "words": [
+    {
+      "id": "man", "en": "man", "ipa": "/mæn/", "partOfSpeech": "noun",
+      "translation": { "ru": "мужчина", "de": "Mann" },
+      "example": { "en": "He is a nice man.", "translation": { "ru": "Он приятный мужчина.", "de": "Er ist ein netter Mann." } },
+      "association": { "ru": "man = Mann, только одна n. Звук [æ] — между «а» и «э».", "de": "man = Mann, nur mit einem n." },
+      "germanBridge": "Mann", "image": "👨"
+    },
+    {
+      "id": "woman", "en": "woman", "ipa": "/ˈwʊmən/", "partOfSpeech": "noun",
+      "translation": { "ru": "женщина", "de": "Frau" },
+      "example": { "en": "The woman is from Russia.", "translation": { "ru": "Эта женщина из России.", "de": "Die Frau kommt aus Russland." } },
+      "association": { "ru": "wo + man. Читается [ВУмэн], первая буква — губы трубочкой [w], не [в].", "de": "wo + man. Gesprochen [ˈwʊmən] – w mit runden Lippen." },
+      "image": "👩"
+    },
+    {
+      "id": "friend", "en": "friend", "ipa": "/frend/", "partOfSpeech": "noun",
+      "translation": { "ru": "друг, подруга", "de": "Freund, Freundin" },
+      "example": { "en": "Maria is my friend.", "translation": { "ru": "Мария — моя подруга.", "de": "Maria ist meine Freundin." } },
+      "association": { "ru": "friend ≈ Freund. Одно слово и для друга, и для подруги.", "de": "friend = Freund/Freundin." },
+      "germanBridge": "Freund", "image": "🤝"
+    },
+    {
+      "id": "teacher", "en": "teacher", "ipa": "/ˈtiːtʃə/", "partOfSpeech": "noun",
+      "translation": { "ru": "учитель, учительница", "de": "Lehrer, Lehrerin" },
+      "example": { "en": "She is a teacher.", "translation": { "ru": "Она учительница.", "de": "Sie ist Lehrerin." } },
+      "association": { "ru": "teach (учить) + -er (тот, кто делает).", "de": "teach (lehren) + -er = Lehrer." },
+      "image": "🧑‍🏫"
+    },
+    {
+      "id": "german", "en": "German", "ipa": "/ˈdʒɜːmən/", "partOfSpeech": "adjective",
+      "translation": { "ru": "немецкий; немец, немка", "de": "deutsch; Deutscher, Deutsche" },
+      "example": { "en": "She is German.", "translation": { "ru": "Она немка.", "de": "Sie ist Deutsche." } },
+      "association": { "ru": "Germany → German. Всегда с большой буквы!", "de": "Germany → German. Immer großgeschrieben!" },
+      "image": "🇩🇪"
+    },
+    {
+      "id": "russian", "en": "Russian", "ipa": "/ˈrʌʃn/", "partOfSpeech": "adjective",
+      "translation": { "ru": "русский, русская", "de": "russisch; Russe, Russin" },
+      "example": { "en": "I'm Russian.", "translation": { "ru": "Я русская.", "de": "Ich bin Russin." } },
+      "association": { "ru": "Russia → Russian. Тоже с большой буквы.", "de": "Russia → Russian." },
+      "image": "🇷🇺"
+    },
+    {
+      "id": "english", "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "partOfSpeech": "adjective",
+      "translation": { "ru": "английский; англичанин", "de": "englisch; Engländer" },
+      "example": { "en": "He is English.", "translation": { "ru": "Он англичанин.", "de": "Er ist Engländer." } },
+      "association": { "ru": "England → English. Это и национальность, и язык.", "de": "England → English: Nationalität und Sprache." },
+      "germanBridge": "Englisch"
+    }
+  ],
+
+  "rule": {
+    "title": { "ru": "he / she / it is, we / they are", "de": "he / she / it is, we / they are" },
+    "explanation": {
+      "ru": "Глагол to be меняется по лицам: I am, he/she/it is, you/we/they are. Национальность — без артикля: She is German. А профессию — с a: He is a teacher.",
+      "de": "to be ändert sich wie „sein“: I am, he/she/it is, you/we/they are. Nationalität ohne Artikel: She is German. Beruf mit a: He is a teacher (anders als im Deutschen!)."
+    },
+    "table": [
+      ["English", "в разговоре", "Deutsch"],
+      ["I am", "I'm", "ich bin"],
+      ["you are", "you're", "du bist / Sie sind"],
+      ["he is / she is / it is", "he's / she's / it's", "er / sie / es ist"],
+      ["we are", "we're", "wir sind"],
+      ["they are", "they're", "sie sind"]
+    ],
+    "examples": [
+      { "en": "She is my friend.", "translation": { "ru": "Она моя подруга.", "de": "Sie ist meine Freundin." } },
+      { "en": "He is a teacher.", "translation": { "ru": "Он учитель.", "de": "Er ist Lehrer." } },
+      { "en": "We are from Germany.", "translation": { "ru": "Мы из Германии.", "de": "Wir kommen aus Deutschland." } }
+    ],
+    "germanBridge": { "ru": "Почти один в один с немецким: ich bin – I am, er ist – he is, wir sind – we are. Но ⚠ профессия с артиклем: He is a teacher (нем. Er ist Lehrer).", "de": "Fast wie im Deutschen. ⚠ Aber Beruf mit Artikel: He is a teacher." },
+    "commonMistake": {
+      "wrong": "She teacher.",
+      "right": "She is a teacher.",
+      "why": { "ru": "Нужен глагол is и артикль a перед профессией.", "de": "Man braucht is und den Artikel a vor dem Beruf." }
+    }
+  },
+
+  "exercises": [
+    {
+      "id": "e1", "type": "choice", "review": true,
+      "instruction": { "ru": "Повторение: выберите ответ на вопрос", "de": "Wiederholung: Wählen Sie die Antwort" },
+      "question": "Where are you from?", "options": ["My name is Nona.", "I'm from Russia.", "Goodbye!"], "answer": 1,
+      "explanation": { "ru": "Вопрос «откуда?» → I'm from …", "de": "Frage „woher?“ → I'm from …" }
+    },
+    {
+      "id": "e2", "type": "choice",
+      "instruction": { "ru": "Выберите правильный вариант", "de": "Wählen Sie die richtige Antwort" },
+      "question": "She ___ my friend.", "options": ["am", "is", "are"], "answer": 1,
+      "explanation": { "ru": "he / she / it → is.", "de": "he / she / it → is." }
+    },
+    {
+      "id": "e3", "type": "choice",
+      "instruction": { "ru": "Выберите правильный вариант", "de": "Wählen Sie die richtige Antwort" },
+      "question": "We ___ from Germany.", "options": ["is", "am", "are"], "answer": 2,
+      "explanation": { "ru": "we / you / they → are.", "de": "we / you / they → are." }
+    },
+    {
+      "id": "e4", "type": "gap",
+      "instruction": { "ru": "Впишите he или she", "de": "Ergänzen Sie he oder she" },
+      "text": "This is Maria. ___ is German.", "answers": ["She"],
+      "explanation": { "ru": "Мария — женщина → she.", "de": "Maria ist eine Frau → she." }
+    },
+    {
+      "id": "e5", "type": "build",
+      "instruction": { "ru": "Соберите предложение", "de": "Bilden Sie den Satz" },
+      "tokens": ["is", "a", "He", "teacher"], "answer": "He is a teacher",
+      "explanation": { "ru": "Не забудьте a перед профессией.", "de": "Vergessen Sie das a vor dem Beruf nicht." }
+    },
+    {
+      "id": "e6", "type": "match",
+      "instruction": { "ru": "Соедините страну и национальность", "de": "Verbinden Sie Land und Nationalität" },
+      "pairs": [["Germany", "German"], ["Russia", "Russian"], ["England", "English"]],
+      "explanation": { "ru": "Страна → национальность. Оба слова с большой буквы.", "de": "Land → Nationalität. Beide großgeschrieben." }
+    },
+    {
+      "id": "e7", "type": "listen",
+      "instruction": { "ru": "Послушайте. Кто этот человек?", "de": "Hören Sie zu. Wer ist die Person?" },
+      "audioText": "This is Anna. She is a teacher. She is from Russia.", "options": ["Анна — учительница из России / Lehrerin aus Russland", "Анна — подруга из Германии / Freundin aus Deutschland", "Анна — учительница из Англии / Lehrerin aus England"], "answer": 0,
+      "explanation": { "ru": "She is a teacher. She is from Russia.", "de": "She is a teacher. She is from Russia." }
+    },
+    {
+      "id": "e8", "type": "translate",
+      "instruction": { "ru": "Переведите на английский", "de": "Übersetzen Sie ins Englische" },
+      "prompt": { "ru": "Он мой друг. Он англичанин.", "de": "Er ist mein Freund. Er ist Engländer." },
+      "answers": ["He is my friend. He is English.", "He's my friend. He's English."],
+      "explanation": { "ru": "he + is. Национальность без артикля.", "de": "he + is. Nationalität ohne Artikel." }
+    },
+    {
+      "id": "e9", "type": "gap", "review": true,
+      "instruction": { "ru": "Повторение: впишите слово", "de": "Wiederholung: Ergänzen Sie" },
+      "text": "___ are you from? — I'm from England.", "answers": ["Where"],
+      "explanation": { "ru": "Where = где/откуда. ⚠ не wer!", "de": "Where = wo/woher. ⚠ nicht wer!" }
+    },
+    {
+      "id": "e10", "type": "choice", "review": true,
+      "instruction": { "ru": "Повторение: что сказать на прощание?", "de": "Wiederholung: Was sagt man zum Abschied?" },
+      "question": "…", "options": ["Hello!", "Goodbye!", "Hi!"], "answer": 1,
+      "explanation": { "ru": "Goodbye — до свидания.", "de": "Goodbye = Tschüss." }
+    }
+  ],
+
+  "speaking": [
+    {
+      "id": "s1", "type": "repeat",
+      "instruction": { "ru": "Повторите. Следите за звуком [w] в woman — губы трубочкой.", "de": "Sprechen Sie nach. Achten Sie auf [w] in woman." },
+      "phrase": "She is a woman. He is a man."
+    },
+    {
+      "id": "s2", "type": "repeat",
+      "instruction": { "ru": "Послушайте и повторите", "de": "Hören Sie zu und sprechen Sie nach" },
+      "phrase": "We are from Germany."
+    },
+    {
+      "id": "s3", "type": "answer",
+      "instruction": { "ru": "Расскажите о друге или подруге: имя и откуда", "de": "Erzählen Sie über einen Freund: Name und Herkunft" },
+      "question": "Tell me about your friend.",
+      "expected": ["This is … . She is my friend. She is from …", "This is … . He is my friend. He is from …"]
+    }
+  ],
+
+  "summary": {
+    "canDo": [
+      { "ru": "Я умею рассказать о другом человеке: She is my friend. He is English.", "de": "Ich kann über andere sprechen." },
+      { "ru": "Я знаю все формы to be: am, is, are", "de": "Ich kenne alle Formen von to be: am, is, are" },
+      { "ru": "Я помню: профессия — с a: She is a teacher.", "de": "Beruf mit a: She is a teacher." }
+    ]
+  },
+
+  "cards": ["man", "woman", "friend", "teacher", "german", "russian", "english"]
+}

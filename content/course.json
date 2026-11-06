@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "level": "A1",
+  "note": "Оглавление курса для приложения. ready: true — файл урока уже написан (content/lessons/<id>.json).",
+  "topics": [
+    { "number": 1, "title": { "ru": "Привет, это я", "de": "Hallo, das bin ich" }, "icon": "👋", "goal": { "ru": "Представиться и сказать, откуда я", "de": "Sich vorstellen" },
+      "test": "tests/topic-01.json",
+      "lessons": [
+        { "id": "01-01", "title": { "ru": "Привет! Как тебя зовут?", "de": "Hallo! Wie heißt du?" }, "ready": true },
+        { "id": "01-02", "title": { "ru": "Откуда вы?", "de": "Woher kommen Sie?" }, "ready": true },
+        { "id": "01-03", "title": { "ru": "Он, она, они", "de": "Er, sie, sie" }, "ready": true },
+        { "id": "01-04", "title": { "ru": "Как дела? Вы из Англии?", "de": "Wie geht's?" }, "ready": true },
+        { "id": "01-05", "title": { "ru": "Продиктуйте по буквам", "de": "Buchstabieren Sie bitte" }, "ready": true }
+      ] },
+    { "number": 2, "title": { "ru": "Моя семья", "de": "Meine Familie" }, "icon": "👨‍👩‍👧", "goal": { "ru": "Рассказать о семье", "de": "Über die Familie sprechen" },
+      "lessons": [
+        { "id": "02-01", "title": { "ru": "Это моя семья", "de": "Das ist meine Familie" }, "ready": false },
+        { "id": "02-02", "title": { "ru": "У меня есть брат", "de": "Ich habe einen Bruder" }, "ready": false },
+        { "id": "02-03", "title": { "ru": "Его, её, их", "de": "Sein, ihr" }, "ready": false },
+        { "id": "02-04", "title": { "ru": "Какой он?", "de": "Wie ist er?" }, "ready": false }
+      ] },
+    { "number": 3, "title": { "ru": "Цифры, время, даты", "de": "Zahlen, Uhrzeit, Datum" }, "icon": "🕒", "goal": { "ru": "Назвать возраст, время, телефон", "de": "Alter, Uhrzeit, Telefon" },
+      "lessons": [
+        { "id": "03-01", "title": { "ru": "Возраст и телефон", "de": "Alter und Telefon" }, "ready": false },
+        { "id": "03-02", "title": { "ru": "Большие числа", "de": "Große Zahlen" }, "ready": false },
+        { "id": "03-03", "title": { "ru": "Который час?", "de": "Wie spät ist es?" }, "ready": false },
+        { "id": "03-04", "title": { "ru": "Дни и даты", "de": "Tage und Daten" }, "ready": false }
+      ] },
+    { "number": 4, "title": { "ru": "Мой день", "de": "Mein Tag" }, "icon": "☀️", "goal": { "ru": "Рассказать о распорядке", "de": "Den Tagesablauf beschreiben" },
+      "lessons": [
+        { "id": "04-01", "title": { "ru": "Моё утро", "de": "Mein Morgen" }, "ready": false },
+        { "id": "04-02", "title": { "ru": "Его день", "de": "Sein Tag" }, "ready": false },
+        { "id": "04-03", "title": { "ru": "Всегда, иногда, никогда", "de": "Immer, manchmal, nie" }, "ready": false },
+        { "id": "04-04", "title": { "ru": "День по часам", "de": "Der Tag nach Uhrzeit" }, "ready": false },
+        { "id": "04-05", "title": { "ru": "Мой день — текст", "de": "Mein Tag – Text" }, "ready": false }
+      ] },
+    { "number": 5, "title": { "ru": "Работа", "de": "Arbeit" }, "icon": "💼", "goal": { "ru": "Сказать, кем и где работаю", "de": "Beruf und Arbeitsplatz" },
+      "lessons": [
+        { "id": "05-01", "title": { "ru": "Кем вы работаете?", "de": "Was sind Sie von Beruf?" }, "ready": false },
+        { "id": "05-02", "title": { "ru": "Я не работаю в офисе", "de": "Ich arbeite nicht im Büro" }, "ready": false },
+        { "id": "05-03", "title": { "ru": "Где вы работаете?", "de": "Wo arbeiten Sie?" }, "ready": false },
+        { "id": "05-04", "title": { "ru": "E-mail коллеге", "de": "E-Mail an Kollegen" }, "ready": false }
+      ] },
+    { "number": 6, "title": { "ru": "Еда и кафе", "de": "Essen und Café" }, "icon": "☕", "goal": { "ru": "Заказать еду и напиток", "de": "Essen bestellen" },
+      "lessons": [
+        { "id": "06-01", "title": { "ru": "Продукты", "de": "Lebensmittel" }, "ready": false },
+        { "id": "06-02", "title": { "ru": "Есть ли дома молоко?", "de": "Haben wir Milch?" }, "ready": false },
+        { "id": "06-03", "title": { "ru": "В кафе", "de": "Im Café" }, "ready": false },
+        { "id": "06-04", "title": { "ru": "В ресторане", "de": "Im Restaurant" }, "ready": false }
+      ] },
+    { "number": 7, "title": { "ru": "Покупки", "de": "Einkaufen" }, "icon": "🛍️", "goal": { "ru": "Спросить цену и размер", "de": "Preis und Größe erfragen" },
+      "lessons": [
+        { "id": "07-01", "title": { "ru": "Одежда и цвета", "de": "Kleidung und Farben" }, "ready": false },
+        { "id": "07-02", "title": { "ru": "Этот, тот", "de": "Dies, das" }, "ready": false },
+        { "id": "07-03", "title": { "ru": "Сколько стоит?", "de": "Was kostet das?" }, "ready": false },
+        { "id": "07-04", "title": { "ru": "Можно примерить?", "de": "Kann ich das anprobieren?" }, "ready": false }
+      ] },
+    { "number": 8, "title": { "ru": "Город и дорога", "de": "Stadt und Weg" }, "icon": "🗺️", "goal": { "ru": "Спросить и объяснить путь", "de": "Nach dem Weg fragen" },
+      "lessons": [
+        { "id": "08-01", "title": { "ru": "Места в городе", "de": "Orte in der Stadt" }, "ready": false },
+        { "id": "08-02", "title": { "ru": "Здесь есть банк?", "de": "Gibt es hier eine Bank?" }, "ready": false },
+        { "id": "08-03", "title": { "ru": "Как пройти?", "de": "Wie komme ich…?" }, "ready": false },
+        { "id": "08-04", "title": { "ru": "Транспорт", "de": "Verkehrsmittel" }, "ready": false }
+      ] },
+    { "number": 9, "title": { "ru": "Дом", "de": "Zuhause" }, "icon": "🏠", "goal": { "ru": "Описать квартиру", "de": "Die Wohnung beschreiben" },
+      "lessons": [
+        { "id": "09-01", "title": { "ru": "Комнаты", "de": "Zimmer" }, "ready": false },
+        { "id": "09-02", "title": { "ru": "Где ключи?", "de": "Wo ist der Schlüssel?" }, "ready": false },
+        { "id": "09-03", "title": { "ru": "За, между, перед", "de": "Hinter, zwischen, vor" }, "ready": false },
+        { "id": "09-04", "title": { "ru": "Моя квартира", "de": "Meine Wohnung" }, "ready": false }
+      ] },
+    { "number": 10, "title": { "ru": "Свободное время", "de": "Freizeit" }, "icon": "🎵", "goal": { "ru": "Рассказать, что люблю", "de": "Hobbys beschreiben" },
+      "lessons": [
+        { "id": "10-01", "title": { "ru": "Я люблю готовить", "de": "Ich koche gern" }, "ready": false },
+        { "id": "10-02", "title": { "ru": "Хобби", "de": "Hobbys" }, "ready": false },
+        { "id": "10-03", "title": { "ru": "Я умею плавать", "de": "Ich kann schwimmen" }, "ready": false },
+        { "id": "10-04", "title": { "ru": "Пойдём в кино?", "de": "Gehen wir ins Kino?" }, "ready": false }
+      ] },
+    { "number": 11, "title": { "ru": "Сейчас", "de": "Jetzt" }, "icon": "⏳", "goal": { "ru": "Сказать, что происходит сейчас", "de": "Was gerade passiert" },
+      "lessons": [
+        { "id": "11-01", "title": { "ru": "Что я делаю сейчас", "de": "Was ich gerade mache" }, "ready": false },
+        { "id": "11-02", "title": { "ru": "Что ты делаешь?", "de": "Was machst du?" }, "ready": false },
+        { "id": "11-03", "title": { "ru": "Обычно или сейчас?", "de": "Normalerweise oder jetzt?" }, "ready": false },
+        { "id": "11-04", "title": { "ru": "Звонок и сообщение", "de": "Anruf und Nachricht" }, "ready": false }
+      ] },
+    { "number": 12, "title": { "ru": "Вчера и выходные", "de": "Gestern und Wochenende" }, "icon": "📅", "goal": { "ru": "Рассказать о прошлом", "de": "Über die Vergangenheit sprechen" },
+      "lessons": [
+        { "id": "12-01", "title": { "ru": "Где ты была вчера?", "de": "Wo warst du gestern?" }, "ready": false },
+        { "id": "12-02", "title": { "ru": "Что я делала", "de": "Was ich gemacht habe" }, "ready": false },
+        { "id": "12-03", "title": { "ru": "Ты была на вечеринке?", "de": "Warst du auf der Party?" }, "ready": false },
+        { "id": "12-04", "title": { "ru": "Мои выходные", "de": "Mein Wochenende" }, "ready": false }
+      ] }
+  ]
+}

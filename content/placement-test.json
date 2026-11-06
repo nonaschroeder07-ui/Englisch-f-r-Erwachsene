@@ -1,0 +1,166 @@
+{
+  "id": "placement-a1",
+  "version": 1,
+  "title": { "ru": "Тест на уровень", "de": "Einstufungstest" },
+  "intro": {
+    "ru": "20 коротких вопросов, около 10 минут. Если не знаете ответ — нажмите «Не знаю»: так результат будет честнее. Тест остановится сам, когда уровень станет понятен.",
+    "de": "20 kurze Fragen, ca. 10 Minuten. Wenn Sie die Antwort nicht wissen, klicken Sie auf „Weiß ich nicht“ – so wird das Ergebnis genauer. Der Test stoppt automatisch."
+  },
+  "rules": {
+    "durationMin": 10,
+    "allowDontKnow": true,
+    "dontKnowLabel": { "ru": "Не знаю", "de": "Weiß ich nicht" },
+    "dontKnowCountsAsWrong": true,
+    "stopAfterWrongInARow": 3,
+    "allowedErrorsPerTopic": 1,
+    "retakeEveryDays": 30
+  },
+  "scoring": {
+    "description": {
+      "ru": "Вопросы идут по темам программы, от 1 до 12. Тема считается пройденной, если все её вопросы были заданы и ошибок не больше allowedErrorsPerTopic (1). Если у темы только один вопрос, он должен быть верным. Уровень = последняя тема, до которой включительно все темы пройдены. Старт = следующая тема. Если тест остановлен после 3 ошибок подряд, оставшиеся вопросы считаются неотвеченными.",
+      "de": "Die Fragen folgen den Themen 1–12. Ein Thema gilt als bestanden, wenn höchstens 1 Fehler gemacht wurde (bei nur einer Frage: muss richtig sein). Niveau = letztes bestandenes Thema in Folge. Start = nächstes Thema."
+    },
+    "results": [
+      {
+        "id": "from-zero",
+        "condition": "masteredTopic == 0",
+        "startTopic": 1,
+        "message": { "ru": "Начинаем с нуля — с темы 1 «Привет, это я». Отличный старт!", "de": "Wir starten bei null – mit Thema 1 „Hallo, das bin ich“." }
+      },
+      {
+        "id": "from-topic",
+        "condition": "1 <= masteredTopic <= 11",
+        "startTopic": "masteredTopic + 1",
+        "message": { "ru": "Вы уже знаете {knownTopics}. Начинаем с темы {startTopic}. Слова пройденных тем попадут в повторение.", "de": "Sie kennen schon {knownTopics}. Wir starten mit Thema {startTopic}." }
+      },
+      {
+        "id": "a1-done",
+        "condition": "masteredTopic == 12",
+        "startTopic": null,
+        "message": { "ru": "Уровень A1 пройден! Переходим к A2. Для подтверждения можно сдать итоговый тест A1.", "de": "Niveau A1 geschafft! Weiter mit A2." }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "p01", "topic": 1, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "Hello! My name ___ Anna.",
+      "options": ["am", "is", "are"], "answer": 1
+    },
+    {
+      "id": "p02", "topic": 1, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "Where ___ you from?",
+      "options": ["is", "am", "are"], "answer": 2
+    },
+    {
+      "id": "p03", "topic": 2, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "This is my mother. ___ name is Olga.",
+      "options": ["His", "Her", "My"], "answer": 1
+    },
+    {
+      "id": "p04", "topic": 2, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "I ___ got two children.",
+      "options": ["have", "has", "am"], "answer": 0
+    },
+    {
+      "id": "p05", "topic": 3, "skill": "vocabulary", "type": "choice",
+      "instruction": { "ru": "Как сказать по-английски «7:30»?", "de": "Wie sagt man „7:30“ auf Englisch?" },
+      "question": "7:30",
+      "options": ["half past seven", "half seven to", "seven and half"], "answer": 0
+    },
+    {
+      "id": "p06", "topic": 3, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите предлог", "de": "Wählen Sie die Präposition" },
+      "question": "My birthday is ___ May.",
+      "options": ["on", "at", "in"], "answer": 2
+    },
+    {
+      "id": "p07", "topic": 4, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "She ___ to work at eight o'clock.",
+      "options": ["go", "goes", "going"], "answer": 1
+    },
+    {
+      "id": "p08", "topic": 4, "skill": "reading", "type": "choice",
+      "instruction": { "ru": "Прочитайте текст. Завтракает ли Том?", "de": "Lesen Sie den Text. Frühstückt Tom?" },
+      "question": "Tom gets up at six o'clock. He has a shower and goes to work. He never has breakfast.",
+      "options": ["Да, всегда / Ja, immer", "Нет, никогда / Nein, nie", "Иногда / Manchmal"], "answer": 1
+    },
+    {
+      "id": "p09", "topic": 5, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "___ you work in an office?",
+      "options": ["Are", "Do", "Does"], "answer": 1
+    },
+    {
+      "id": "p10", "topic": 5, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "He ___ like coffee.",
+      "options": ["don't", "isn't", "doesn't"], "answer": 2
+    },
+    {
+      "id": "p11", "topic": 6, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "Have we got ___ milk?",
+      "options": ["any", "a", "an"], "answer": 0
+    },
+    {
+      "id": "p12", "topic": 6, "skill": "communication", "type": "choice",
+      "instruction": { "ru": "Вы в кафе. Официант спрашивает: «Can I help you?» Что ответить?", "de": "Sie sind im Café. Der Kellner fragt: „Can I help you?“ Was antworten Sie?" },
+      "question": "Can I help you?",
+      "options": ["Can I have a coffee, please?", "I have coffee.", "Give coffee."], "answer": 0
+    },
+    {
+      "id": "p13", "topic": 7, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "How much ___ these shoes?",
+      "options": ["is", "are", "am"], "answer": 1
+    },
+    {
+      "id": "p14", "topic": 7, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "I like ___ jacket. Can I try it on?",
+      "options": ["these", "those", "this"], "answer": 2
+    },
+    {
+      "id": "p15", "topic": 8, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слова для пропуска", "de": "Wählen Sie die passenden Wörter" },
+      "question": "Excuse me, ___ a bank near here?",
+      "options": ["is there", "are there", "there is"], "answer": 0
+    },
+    {
+      "id": "p16", "topic": 8, "skill": "communication", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "Where is the station? — ___ left, then go straight on.",
+      "options": ["Turning", "Turn", "Turns"], "answer": 1
+    },
+    {
+      "id": "p17", "topic": 9, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Ключи лежат на столе. Выберите предлог.", "de": "Die Schlüssel liegen auf dem Tisch. Wählen Sie die Präposition." },
+      "question": "The keys are ___ the table.",
+      "options": ["on", "at", "to"], "answer": 0
+    },
+    {
+      "id": "p18", "topic": 10, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите форму глагола", "de": "Wählen Sie die Verbform" },
+      "question": "I love ___ for my family.",
+      "options": ["cook", "cooking", "cooks"], "answer": 1
+    },
+    {
+      "id": "p19", "topic": 11, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Тише! Ребёнок сейчас спит. Выберите форму глагола.", "de": "Leise! Das Baby schläft gerade. Wählen Sie die Verbform." },
+      "question": "Shh! The baby ___ .",
+      "options": ["sleeps", "is sleeping", "sleep"], "answer": 1
+    },
+    {
+      "id": "p20", "topic": 12, "skill": "grammar", "type": "choice",
+      "instruction": { "ru": "Выберите слово для пропуска", "de": "Wählen Sie das passende Wort" },
+      "question": "Yesterday I ___ at home all day.",
+      "options": ["am", "were", "was"], "answer": 2
+    }
+  ]
+}

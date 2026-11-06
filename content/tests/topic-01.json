@@ -1,0 +1,20 @@
+{
+  "id": "test-01",
+  "topic": 1,
+  "title": { "ru": "Мини-тест: Привет, это я", "de": "Minitest: Hallo, das bin ich" },
+  "durationMin": 7,
+  "passPercent": 70,
+  "onFail": { "ru": "Повторите уроки, где были ошибки, — приложение добавит эти слова в повторение.", "de": "Wiederholen Sie die Lektionen mit Fehlern." },
+  "questions": [
+    { "id": "t1", "lesson": "01-01", "type": "choice", "question": "___ Nona.", "options": ["I", "I'm", "My"], "answer": 1 },
+    { "id": "t2", "lesson": "01-01", "type": "translate", "prompt": { "ru": "Как вас зовут?", "de": "Wie heißen Sie?" }, "answers": ["What's your name?", "What is your name?"] },
+    { "id": "t3", "lesson": "01-02", "type": "build", "tokens": ["from", "you", "are", "Where", "?"], "answer": "Where are you from ?" },
+    { "id": "t4", "lesson": "01-02", "type": "choice", "question": "where = ?", "options": ["кто / wer", "где / wo", "как / wie"], "answer": 1 },
+    { "id": "t5", "lesson": "01-03", "type": "choice", "question": "They ___ from Germany.", "options": ["is", "am", "are"], "answer": 2 },
+    { "id": "t6", "lesson": "01-03", "type": "translate", "prompt": { "ru": "Она учительница.", "de": "Sie ist Lehrerin." }, "answers": ["She is a teacher.", "She's a teacher."] },
+    { "id": "t7", "lesson": "01-04", "type": "choice", "question": "Are you English? (нет / nein)", "options": ["No, I'm not.", "No, I not.", "No, I amn't."], "answer": 0 },
+    { "id": "t8", "lesson": "01-04", "type": "listen", "audioText": "How are you? I'm fine, thanks.", "options": ["Как дела? — Хорошо, спасибо.", "Откуда ты? — Из Англии.", "Как тебя зовут? — Том."], "answer": 0 },
+    { "id": "t9", "lesson": "01-05", "type": "listen", "audioText": "E-V-A", "answers": ["Eva", "EVA", "eva"] },
+    { "id": "t10", "lesson": "01-05", "type": "speaking", "question": "Hello! What's your name? Where are you from? How do you spell your surname?", "expected": ["My name is … . I'm from … . S-…"] }
+  ]
+}

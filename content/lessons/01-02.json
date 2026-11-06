@@ -1,0 +1,183 @@
+{
+  "id": "01-02",
+  "topic": { "number": 1, "title": { "ru": "Привет, это я", "de": "Hallo, das bin ich" } },
+  "title": { "ru": "Откуда вы?", "de": "Woher kommen Sie?" },
+  "goal": { "ru": "Я умею сказать, откуда я, и спросить, откуда собеседник", "de": "Ich kann sagen, woher ich komme, und danach fragen" },
+  "durationMin": 15,
+  "cefr": "A1",
+
+  "situation": {
+    "context": { "ru": "Перерыв на курсах. Том хочет узнать о вас больше.", "de": "Pause im Kurs. Tom möchte mehr über Sie wissen." },
+    "lines": [
+      { "speaker": "Tom", "en": "Nona, where are you from?", "translation": { "ru": "Нона, откуда ты?", "de": "Nona, woher kommst du?" } },
+      { "speaker": "Nona", "en": "I'm from Russia. And you?", "translation": { "ru": "Я из России. А ты?", "de": "Ich komme aus Russland. Und du?" } },
+      { "speaker": "Tom", "en": "I'm from England. My city is London.", "translation": { "ru": "Я из Англии. Мой город — Лондон.", "de": "Ich komme aus England. Meine Stadt ist London." } },
+      { "speaker": "Nona", "en": "My city is Stuttgart. It's in Germany.", "translation": { "ru": "Мой город — Штутгарт. Он в Германии.", "de": "Meine Stadt ist Stuttgart. Sie liegt in Deutschland." } }
+    ]
+  },
+
+  "words": [
+    {
+      "id": "where", "en": "where", "ipa": "/weə/", "partOfSpeech": "adverb",
+      "translation": { "ru": "где; откуда (вместе с from)", "de": "wo; woher (mit from)" },
+      "example": { "en": "Where are you from?", "translation": { "ru": "Откуда вы?", "de": "Woher kommen Sie?" } },
+      "association": { "ru": "where [уэа] — «где». Начинается с wh-, как почти все вопросительные слова.", "de": "where = wo. Fragewörter beginnen meist mit wh-." },
+      "falseFriend": { "ru": "⚠ where (где) ≠ немецкое wer (кто)! «Кто» по-английски — who.", "de": "⚠ where = wo, nicht wer! „Wer“ = who." },
+      "image": "📍"
+    },
+    {
+      "id": "from", "en": "from", "ipa": "/frɒm/", "partOfSpeech": "preposition",
+      "translation": { "ru": "из, от", "de": "aus, von" },
+      "example": { "en": "I'm from Russia.", "translation": { "ru": "Я из России.", "de": "Ich komme aus Russland." } },
+      "association": { "ru": "from ≈ «вон из». I'm from… = «я родом из…».", "de": "from = aus/von." }
+    },
+    {
+      "id": "germany", "en": "Germany", "ipa": "/ˈdʒɜːməni/", "partOfSpeech": "noun",
+      "translation": { "ru": "Германия", "de": "Deutschland" },
+      "example": { "en": "Stuttgart is in Germany.", "translation": { "ru": "Штутгарт находится в Германии.", "de": "Stuttgart liegt in Deutschland." } },
+      "association": { "ru": "Как «Германия», но звук [дж]: [джёмэни].", "de": "Von „Germanen“ – gesprochen [ˈdʒɜːməni]." },
+      "image": "🇩🇪"
+    },
+    {
+      "id": "russia", "en": "Russia", "ipa": "/ˈrʌʃə/", "partOfSpeech": "noun",
+      "translation": { "ru": "Россия", "de": "Russland" },
+      "example": { "en": "I'm from Russia.", "translation": { "ru": "Я из России.", "de": "Ich komme aus Russland." } },
+      "association": { "ru": "Читается [раша], с ударением на первый слог.", "de": "Gesprochen [ˈrʌʃə]." },
+      "image": "🇷🇺"
+    },
+    {
+      "id": "england", "en": "England", "ipa": "/ˈɪŋɡlənd/", "partOfSpeech": "noun",
+      "translation": { "ru": "Англия", "de": "England" },
+      "example": { "en": "Tom is from England.", "translation": { "ru": "Том из Англии.", "de": "Tom kommt aus England." } },
+      "association": { "ru": "Пишется как по-немецки, но первая буква читается [и]: [ИНГлэнд].", "de": "Wie im Deutschen, aber [ˈɪŋɡlənd]." },
+      "germanBridge": "England", "image": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    {
+      "id": "country", "en": "country", "ipa": "/ˈkʌntri/", "partOfSpeech": "noun",
+      "translation": { "ru": "страна", "de": "Land" },
+      "example": { "en": "Germany is a big country.", "translation": { "ru": "Германия — большая страна.", "de": "Deutschland ist ein großes Land." } },
+      "association": { "ru": "Как музыка кантри — «деревенская», из глубины страны.", "de": "Wie Country-Musik – Musik vom Land." },
+      "image": "🗺️"
+    },
+    {
+      "id": "city", "en": "city", "ipa": "/ˈsɪti/", "partOfSpeech": "noun",
+      "translation": { "ru": "город", "de": "Stadt" },
+      "example": { "en": "My city is Stuttgart.", "translation": { "ru": "Мой город — Штутгарт.", "de": "Meine Stadt ist Stuttgart." } },
+      "association": { "ru": "Как «City» в центре города (City-Center).", "de": "Wie die „City“ – Innenstadt." },
+      "image": "🏙️"
+    }
+  ],
+
+  "rule": {
+    "title": { "ru": "you are / I'm from …", "de": "you are / I'm from …" },
+    "explanation": {
+      "ru": "С «я» — am, с «ты/вы» — are: I am, you are. Чтобы сказать, откуда вы: I'm from + страна. Вопрос: Where are you from? — from уходит в конец вопроса.",
+      "de": "Ich → am, du/Sie → are: I am, you are. Herkunft: I'm from + Land. Frage: Where are you from? – from steht am Ende."
+    },
+    "table": [
+      ["", "полная форма", "в разговоре", "Deutsch"],
+      ["я", "I am from Russia.", "I'm from Russia.", "Ich komme aus Russland."],
+      ["ты/вы", "You are from England.", "You're from England.", "Du kommst / Sie kommen aus England."],
+      ["вопрос", "Where are you from?", "—", "Woher kommst du / kommen Sie?"]
+    ],
+    "examples": [
+      { "en": "I'm from Germany.", "translation": { "ru": "Я из Германии.", "de": "Ich komme aus Deutschland." } },
+      { "en": "You're from England.", "translation": { "ru": "Ты из Англии.", "de": "Du kommst aus England." } },
+      { "en": "Where are you from?", "translation": { "ru": "Откуда вы?", "de": "Woher kommen Sie?" } }
+    ],
+    "germanBridge": { "ru": "В немецком «Ich komme aus…» — с глаголом «приходить». В английском проще: «я есть из…» — I'm from…", "de": "Statt „kommen aus“ sagt man einfach „sein aus“: I'm from…" },
+    "commonMistake": {
+      "wrong": "From where are you?",
+      "right": "Where are you from?",
+      "why": { "ru": "В английском from обычно стоит в конце вопроса.", "de": "Im Englischen steht from am Ende der Frage." }
+    }
+  },
+
+  "exercises": [
+    {
+      "id": "e1", "type": "match", "review": true,
+      "instruction": { "ru": "Повторение: соедините фразу и перевод", "de": "Wiederholung: Verbinden Sie" },
+      "pairs": [["What's your name?", "Как вас зовут? / Wie heißen Sie?"], ["Goodbye!", "До свидания! / Tschüss!"], ["My name is Tom.", "Меня зовут Том. / Ich heiße Tom."]],
+      "explanation": { "ru": "Это фразы из прошлого урока.", "de": "Das sind Sätze aus der letzten Lektion." }
+    },
+    {
+      "id": "e2", "type": "choice",
+      "instruction": { "ru": "Выберите правильный вариант", "de": "Wählen Sie die richtige Antwort" },
+      "question": "Where ___ you from?", "options": ["am", "are", "is"], "answer": 1,
+      "explanation": { "ru": "С you всегда are.", "de": "Mit you immer are." }
+    },
+    {
+      "id": "e3", "type": "choice",
+      "instruction": { "ru": "Выберите правильный вариант", "de": "Wählen Sie die richtige Antwort" },
+      "question": "I'm ___ Russia.", "options": ["in", "from", "where"], "answer": 1,
+      "explanation": { "ru": "Откуда я родом → from.", "de": "Herkunft → from." }
+    },
+    {
+      "id": "e4", "type": "build",
+      "instruction": { "ru": "Соберите вопрос", "de": "Bilden Sie die Frage" },
+      "tokens": ["you", "from", "Where", "are", "?"], "answer": "Where are you from ?",
+      "explanation": { "ru": "Where + are + you + from — from в конце.", "de": "Where + are + you + from – from am Ende." }
+    },
+    {
+      "id": "e5", "type": "gap", "review": true,
+      "instruction": { "ru": "Повторение: впишите слово", "de": "Wiederholung: Ergänzen Sie" },
+      "text": "Hi! ___ name is Nona. I'm from Russia.", "answers": ["My", "my"],
+      "explanation": { "ru": "My name is … — меня зовут …", "de": "My name is … = Ich heiße …" }
+    },
+    {
+      "id": "e6", "type": "match",
+      "instruction": { "ru": "Соедините слово и перевод", "de": "Verbinden Sie Wort und Übersetzung" },
+      "pairs": [["country", "страна / Land"], ["city", "город / Stadt"], ["Germany", "Германия / Deutschland"], ["where", "где / wo"]],
+      "explanation": { "ru": "⚠ where = где (wo), а не «кто» (wer).", "de": "⚠ where = wo, nicht wer." }
+    },
+    {
+      "id": "e7", "type": "listen",
+      "instruction": { "ru": "Послушайте. Откуда этот человек?", "de": "Hören Sie zu. Woher kommt die Person?" },
+      "audioText": "Hello! I'm Mark. I'm from England.", "options": ["Германия / Deutschland", "Англия / England", "Россия / Russland"], "answer": 1,
+      "explanation": { "ru": "I'm from England — я из Англии.", "de": "I'm from England = Ich komme aus England." }
+    },
+    {
+      "id": "e8", "type": "translate",
+      "instruction": { "ru": "Переведите на английский", "de": "Übersetzen Sie ins Englische" },
+      "prompt": { "ru": "Я из Германии. А вы?", "de": "Ich komme aus Deutschland. Und Sie?" },
+      "answers": ["I'm from Germany. And you?", "I am from Germany. And you?"],
+      "explanation": { "ru": "I'm from + страна. «А вы?» = And you?", "de": "I'm from + Land. „Und Sie?“ = And you?" }
+    },
+    {
+      "id": "e9", "type": "choice", "review": true,
+      "instruction": { "ru": "Повторение: как сказать «Я Нона»?", "de": "Wiederholung: Wie sagt man „Ich bin Nona“?" },
+      "question": "Я Нона. / Ich bin Nona.", "options": ["I Nona.", "I'm Nona.", "My Nona."], "answer": 1,
+      "explanation": { "ru": "Глагол am обязателен: I'm = I am.", "de": "Das Verb am ist Pflicht." }
+    }
+  ],
+
+  "speaking": [
+    {
+      "id": "s1", "type": "repeat",
+      "instruction": { "ru": "Послушайте и повторите", "de": "Hören Sie zu und sprechen Sie nach" },
+      "phrase": "Where are you from?"
+    },
+    {
+      "id": "s2", "type": "answer",
+      "instruction": { "ru": "Ответьте вслух о себе", "de": "Antworten Sie laut über sich" },
+      "question": "Where are you from?",
+      "expected": ["I'm from Russia.", "I'm from Germany.", "I'm from …"]
+    },
+    {
+      "id": "s3", "type": "answer",
+      "instruction": { "ru": "Назовите свой город", "de": "Nennen Sie Ihre Stadt" },
+      "question": "What's your city?",
+      "expected": ["My city is …", "It's …"]
+    }
+  ],
+
+  "summary": {
+    "canDo": [
+      { "ru": "Я умею сказать, откуда я: I'm from …", "de": "Ich kann sagen, woher ich komme: I'm from …" },
+      { "ru": "Я умею спросить: Where are you from?", "de": "Ich kann fragen: Where are you from?" },
+      { "ru": "Я знаю: where = где, а не wer!", "de": "Ich weiß: where = wo, nicht wer!" }
+    ]
+  },
+
+  "cards": ["where", "from", "germany", "russia", "england", "country", "city", "phrase:where-are-you-from"]
+}
